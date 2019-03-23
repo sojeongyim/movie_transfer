@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/reshoot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00ffffff"
+                android:contentDescription="TODO"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/reshoot" />
+
+            <ImageButton
+                android:id="@+id/mypage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00ffffff"
+                android:contentDescription="TODO"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/home" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/wait" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/guide_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#a9000000">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/shootagain" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/backtohome" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/wait3" />
+    </RelativeLayout>
+
+
+</FrameLayout>

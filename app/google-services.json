@@ -1,0 +1,322 @@
+{
+  "project_info": {
+    "project_number": "500554898072",
+    "firebase_url": "https://pulse9-camera.firebaseio.com",
+    "project_id": "pulse9-camera",
+    "storage_bucket": "pulse9-camera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500554898072:android:73cfb2a75ced841c",
+        "android_client_info": {
+          "package_name": "ai.pulse9.drawingai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500554898072-m9b3kjipb24mteqldmi5mapbr5mhuqis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.drawingai",
+            "certificate_hash": "745edf9dc43630e677c855b0ba1ff59b7ac30447"
+          }
+        },
+        {
+          "client_id": "500554898072-akj9isbrcf8vhq4d47anmgjp05bgh998.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.drawingai",
+            "certificate_hash": "17a951ed178b253d0f18a269c76c55f6ed242c48"
+          }
+        },
+        {
+          "client_id": "500554898072-llvk0ss4hq1mlntr1l7gc9l8cfj380dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.drawingai",
+            "certificate_hash": "f35730774d90653f8ceeb4fafaeae954f34391e6"
+          }
+        },
+        {
+          "client_id": "500554898072-rl976fvsgd38jqr85rfmhlog0r3u3ds5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.drawingai",
+            "certificate_hash": "badec32a5481fe3a7944a007abac8293098ecf1a"
+          }
+        },
+        {
+          "client_id": "500554898072-68flm3et8aunl2hb9qiiih7koc2abk10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.drawingai",
+            "certificate_hash": "89ff90b2261330271dc7a2541499707527984f04"
+          }
+        },
+        {
+          "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhLYvGi9wq38KAZd_9cflOofU8Ur8oFEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500554898072-b2hnu3d2pmfupdh4cpc4idclebv1kgqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pulse9.drawingAI"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500554898072:android:669c8cec60b2d604",
+        "android_client_info": {
+          "package_name": "ai.pulse9.pulsecamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500554898072-5ogcdeach7s9f66e8igcflmmh2c2iq4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.pulsecamera",
+            "certificate_hash": "745edf9dc43630e677c855b0ba1ff59b7ac30447"
+          }
+        },
+        {
+          "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhLYvGi9wq38KAZd_9cflOofU8Ur8oFEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500554898072-b2hnu3d2pmfupdh4cpc4idclebv1kgqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pulse9.drawingAI"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500554898072:android:b274e42f8dcb0693",
+        "android_client_info": {
+          "package_name": "ai.pulse9.sketchai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500554898072-9hs849jmcl5f5g9888998472jdeiqft6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.sketchai",
+            "certificate_hash": "745edf9dc43630e677c855b0ba1ff59b7ac30447"
+          }
+        },
+        {
+          "client_id": "500554898072-6vbkmol088u31o78if28seubtvif1mvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.sketchai",
+            "certificate_hash": "76abc8b9be0644ed54ca4f0ec3c50308ee1570ce"
+          }
+        },
+        {
+          "client_id": "500554898072-44l77a81tg8tgdpmhvu9n4lnuhnvnhoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.pulse9.sketchai",
+            "certificate_hash": "f35730774d90653f8ceeb4fafaeae954f34391e6"
+          }
+        },
+        {
+          "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhLYvGi9wq38KAZd_9cflOofU8Ur8oFEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500554898072-b2hnu3d2pmfupdh4cpc4idclebv1kgqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pulse9.drawingAI"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500554898072:android:cb736a2b4abf5af9",
+        "android_client_info": {
+          "package_name": "com.simple.cameratuto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500554898072-arlt2pl7n0jfe40pulveh3ive43kfom3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simple.cameratuto",
+            "certificate_hash": "745edf9dc43630e677c855b0ba1ff59b7ac30447"
+          }
+        },
+        {
+          "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhLYvGi9wq38KAZd_9cflOofU8Ur8oFEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500554898072-b2hnu3d2pmfupdh4cpc4idclebv1kgqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pulse9.drawingAI"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500554898072:android:d0b7240eedb19dda",
+        "android_client_info": {
+          "package_name": "pulse9.drawingmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500554898072-lhjbrp3881qad42bk5940qa57jcp0vdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pulse9.drawingmovie",
+            "certificate_hash": "745edf9dc43630e677c855b0ba1ff59b7ac30447"
+          }
+        },
+        {
+          "client_id": "500554898072-80hsuvl1in6a75hlk8on2sa4h5jj00jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pulse9.drawingmovie",
+            "certificate_hash": "89ff90b2261330271dc7a2541499707527984f04"
+          }
+        },
+        {
+          "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhLYvGi9wq38KAZd_9cflOofU8Ur8oFEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500554898072-1qk2q4rdqtah9u7b3fnhnahhfke9g927.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500554898072-b2hnu3d2pmfupdh4cpc4idclebv1kgqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pulse9.drawingAI"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

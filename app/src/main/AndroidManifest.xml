@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pulse9.drawingmovie">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shoot"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="pulse9.drawingmovie.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="pulse9.drawingmovie.MainActivity" />
+        <activity android:name="pulse9.drawingmovie.CheckvideoActivity" />
+        <activity android:name="pulse9.drawingmovie.NoticeActivity" />
+        <activity android:name=".ExvideoActivity"/>
+
+        <service
+            android:name="pulse9.drawingmovie.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="pulse9.drawingmovie.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="pulse9.drawingmovie.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path"/>
+        </provider>
+    </application>
+
+</manifest>
